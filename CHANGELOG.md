@@ -8,6 +8,11 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- BetterDiscord modular entrypoint.
+- Remote CSS loading through GitHub raw imports.
+
+### Added
+
 - Global variables system.
 - Color palette.
 - Typography system.

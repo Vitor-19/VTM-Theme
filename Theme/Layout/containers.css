@@ -1,0 +1,251 @@
+/*==========================================================
+    MODULE
+
+    Name:
+    Containers
+
+    Theme:
+    Vampire: The Masquerade - Bloodlines Discord Theme
+
+    Description:
+    Global container styling.
+
+==========================================================*/
+
+/*==========================================================
+
+    INDEX
+
+    01 Main Panels
+    02 Visual Separation
+    03 Global Panels
+    04 Cards
+    05 Generic Sections
+    06 Headers
+    07 Search
+    08 Modal Windows
+    09 Popouts
+
+==========================================================*/
+
+
+/*==========================================================
+    Main Panels
+==========================================================*/
+
+.sidebar_c48ade,
+.chat_f75fb0,
+.membersWrap_c8ffbb,
+.container__133bf,
+.container__9293f{
+
+    background-image:
+
+        linear-gradient(
+
+            180deg,
+
+            var(--color-panel-1),
+
+            var(--color-panel-2),
+
+            var(--color-bg-1)
+
+        ) !important;
+
+    border: none !important;
+
+    box-shadow: none !important;
+
+}
+
+
+/*==========================================================
+    Visual Separation
+==========================================================*/
+
+.sidebar_c48ade{
+
+    border-right:
+
+        1px solid color-mix(
+            in srgb,
+            var(--color-blood-300) 22%,
+            transparent
+        );
+
+}
+
+.membersWrap_c8ffbb{
+
+    border-left:
+
+        1px solid color-mix(
+            in srgb,
+            var(--color-blood-300) 22%,
+            transparent
+        );
+
+}
+
+
+/*==========================================================
+    Global Panels
+==========================================================*/
+
+.contentRegion__23e6b,
+.contentRegionScroller__23e6b,
+.standardSidebarView__23e6b,
+.container_f369db,
+.container_c8ffbb{
+
+    background-color:
+
+        transparent !important;
+
+}
+
+
+/*==========================================================
+    Cards
+==========================================================*/
+
+.panels_c48ade,
+.visual-refresh .panels_c48ade,
+.nowPlayingColumn__133bf,
+.applicationStore_f07d62,
+.pageWrapper_a3a4ce{
+
+    background-color:
+
+        color-mix(
+            in srgb,
+            var(--color-panel-2) 35%,
+            transparent
+        ) !important;
+
+    border: none !important;
+
+    box-shadow: none !important;
+
+    backdrop-filter: blur(2px);
+
+}
+
+
+/*==========================================================
+    Generic Sections
+==========================================================*/
+
+.section__00943,
+.container__7d20c,
+.container__2637a,
+.container__551b0{
+
+    background-color:
+
+        transparent !important;
+
+}
+
+
+/*==========================================================
+    Headers
+==========================================================*/
+
+.header_f37cb1,
+.header__99f8c,
+.title_f75fb0,
+.children__9293f{
+
+    background-color:
+
+        transparent !important;
+
+}
+
+
+/*==========================================================
+    Search
+==========================================================*/
+
+.searchBar__97492,
+.searchBarComponent__35e86{
+
+    background-color:
+
+        color-mix(
+            in srgb,
+            var(--color-panel-1) 45%,
+            transparent
+        ) !important;
+
+    border:
+
+        1px solid color-mix(
+            in srgb,
+            var(--color-blood-300) 30%,
+            transparent
+        );
+
+    transition:
+
+        var(--layout-transition);
+
+}
+
+.searchBar__97492:hover,
+.searchBarComponent__35e86:hover{
+
+    border-color:
+
+        color-mix(
+            in srgb,
+            var(--color-blood-400) 40%,
+            transparent
+        );
+
+}
+
+
+/*==========================================================
+    Modal Windows
+==========================================================*/
+
+.root__49fc1,
+.modal__6c3da{
+
+    background-image:
+
+        linear-gradient(
+
+            180deg,
+
+            var(--color-panel-1),
+
+            var(--color-bg-2)
+
+        ) !important;
+
+}
+
+
+/*==========================================================
+    Popouts
+==========================================================*/
+
+.menu_c1e9c4,
+.popout__3f413,
+.wrapper_f563df{
+
+    background-color:
+
+        color-mix(
+            in srgb,
+            var(--color-bg-2) 96%,
+            transparent
+        ) !important;
+
+    border: none !important;
+
+}

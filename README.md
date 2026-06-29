@@ -18,6 +18,14 @@ Current Version: 0.0.2 (Foundation)
 - Modular architecture
 - BetterDiscord compatible
 
+## Development
+
+The theme is built using a modular architecture.
+
+Only `Bloodlines.theme.css` should be placed inside the BetterDiscord Themes folder.
+
+All remaining modules are loaded directly from GitHub during development.
+
 ## Project Structure
 
 ```text

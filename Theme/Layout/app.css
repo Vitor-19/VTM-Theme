@@ -1,0 +1,250 @@
+/*==========================================================
+    MODULE
+
+    Name:
+    Application Layout
+
+    Theme:
+    Vampire: The Masquerade - Bloodlines Discord Theme
+
+    Description:
+    Defines the application's global layout,
+    atmosphere and base rendering layers.
+
+==========================================================*/
+
+/*==========================================================
+
+    INDEX
+
+    01 Root
+    02 Discord Root
+    03 Global Workspace
+    04 Main Content
+    05 Bloodlines Background
+    06 Global Darkness Layer
+    07 Workspace Transparency
+    08 Accessibility
+    09 Reduced Motion
+
+==========================================================*/
+
+
+/*==========================================================
+    Root
+==========================================================*/
+
+:root{
+
+    /* Layout */
+
+    --layout-max-width: 100vw;
+    --layout-max-height: 100vh;
+
+    --layout-panel-gap: 8px;
+    --layout-panel-padding: 10px;
+
+    --layout-transition: .22s ease;
+
+}
+
+
+/*==========================================================
+    Discord Root
+==========================================================*/
+
+.appMount__51fd7,
+.bg__960e4,
+.app__160d8{
+
+    background-color: var(--color-bg-1) !important;
+
+}
+
+
+/*==========================================================
+    Global Workspace
+==========================================================*/
+
+.layers__160d8,
+.layer__960e4,
+.base__960e4{
+
+    background-color: transparent !important;
+
+}
+
+
+/*==========================================================
+    Main Content
+==========================================================*/
+
+.content__99f8c{
+
+    background-color: transparent !important;
+
+}
+
+
+/*==========================================================
+    Bloodlines Background
+==========================================================*/
+
+.appMount__51fd7::before{
+
+    content: "";
+
+    position: fixed;
+
+    inset: 0;
+
+    pointer-events: none;
+
+    z-index: -2;
+
+    background-color: var(--color-bg-1);
+
+    background-image:
+
+        radial-gradient(
+
+            ellipse at center,
+
+            color-mix(
+                in srgb,
+                var(--color-blood-300) 22%,
+                transparent
+            ) 0%,
+
+            color-mix(
+                in srgb,
+                var(--color-blood-200) 14%,
+                transparent
+            ) 22%,
+
+            color-mix(
+                in srgb,
+                var(--color-blood-100) 8%,
+                transparent
+            ) 45%,
+
+            transparent 72%
+
+        );
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+}
+
+
+/*==========================================================
+    Global Darkness Layer
+==========================================================*/
+
+.appMount__51fd7::after{
+
+    content: "";
+
+    position: fixed;
+
+    inset: 0;
+
+    pointer-events: none;
+
+    z-index: -1;
+
+    background:
+
+        linear-gradient(
+
+            90deg,
+
+            color-mix(
+                in srgb,
+                var(--color-bg-1) 55%,
+                transparent
+            ) 0%,
+
+            color-mix(
+                in srgb,
+                var(--color-bg-2) 18%,
+                transparent
+            ) 18%,
+
+            transparent 50%,
+
+            color-mix(
+                in srgb,
+                var(--color-bg-2) 18%,
+                transparent
+            ) 82%,
+
+            color-mix(
+                in srgb,
+                var(--color-bg-1) 55%,
+                transparent
+            ) 100%
+
+        );
+
+}
+
+
+/*==========================================================
+    Workspace Transparency
+==========================================================*/
+
+.sidebar_c48ade,
+.chat_f75fb0,
+.container__133bf,
+.container__9293f{
+
+    background-color: transparent !important;
+
+}
+
+
+/*==========================================================
+    Accessibility
+==========================================================*/
+
+::selection{
+
+    background:
+
+        color-mix(
+            in srgb,
+            var(--color-blood-400) 45%,
+            transparent
+        );
+
+    color: #ffffff;
+
+}
+
+
+/*==========================================================
+    Reduced Motion
+==========================================================*/
+
+@media (prefers-reduced-motion: reduce){
+
+    *{
+
+        animation-duration: .01ms !important;
+
+        transition-duration: .01ms !important;
+
+        animation-iteration-count: 1 !important;
+
+        scroll-behavior: auto !important;
+
+    }
+
+}

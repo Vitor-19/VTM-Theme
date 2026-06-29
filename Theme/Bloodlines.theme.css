@@ -1,0 +1,106 @@
+/**
+ * @name Vampire: The Masquerade - Bloodlines
+ * @author Vitor Mello
+ * @version 0.0.2
+ * @description Discord theme inspired by Vampire: The Masquerade - Bloodlines (2004).
+ * @source https://github.com/Vitor-19/VTM-Theme
+ */
+
+/*==========================================================
+    FOUNDATION
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Variables/variables.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Variables/colors.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Variables/fonts.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Variables/effects.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Variables/animations.css");
+
+/*==========================================================
+    LAYOUT
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Layout/app.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Layout/containers.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Layout/scrollbars.css");
+
+/*==========================================================
+    GUILDS
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Guilds/guild-bar.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Guilds/guild-icons.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Guilds/guild-home.css");
+
+/*==========================================================
+    CHANNELS
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Channels/sidebar.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Channels/categories.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Channels/channels.css");
+
+/*==========================================================
+    CHAT
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Chat/chat.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Chat/messages.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Chat/embeds.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Chat/markdown.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Chat/textarea.css");
+
+/*==========================================================
+    MEMBERS
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Members/members.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Members/member-card.css");
+
+/*==========================================================
+    PROFILE
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Profile/popout.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Profile/full-profile.css");
+
+/*==========================================================
+    SETTINGS
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Settings/settings.css");
+
+/*==========================================================
+    CONTEXT
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Context/context-menu.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Context/tooltip.css");
+
+/*==========================================================
+    PICKERS
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Pickers/emoji.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Pickers/gif.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Pickers/stickers.css");
+
+/*==========================================================
+    VOICE
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Voice/voice.css");
+
+/*==========================================================
+    DIRECT MESSAGES
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/DM/friends.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/DM/dm.css");
+
+/*==========================================================
+    UTILITIES
+==========================================================*/
+
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Utilities/overrides.css");
+@import url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Theme/Utilities/fixes.css");
