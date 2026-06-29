@@ -4,24 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [0.0.2] Foundation
-
-### Added
-
-- Modular BetterDiscord entrypoint.
-- GitHub CDN module loading via jsDelivr.
-
-### Changed
-
-- Replaced GitHub Raw imports with jsDelivr CDN for BetterDiscord compatibility.
+## [0.0.2] - Foundation
 
 ### Added
 
 - BetterDiscord modular entrypoint.
-- Remote CSS loading through GitHub raw imports.
-
-### Added
-
 - Global variables system.
 - Color palette.
 - Typography system.
@@ -35,10 +22,15 @@ All notable changes to this project will be documented in this file.
   - Wolf's Bane
   - Kruella
   - Mephisto
+- Replaced GitHub Raw imports with jsDelivr CDN for BetterDiscord compatibility.
+
+### Infrastructure
+
+- Configured modular CSS loading through jsDelivr CDN.
 
 ---
 
-## [0.0.1] Project Structure
+## [0.0.1] - Project Structure
 
 ### Added
 
