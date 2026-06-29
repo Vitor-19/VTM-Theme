@@ -1,0 +1,203 @@
+/*==========================================================
+    MODULE
+
+    Name:
+    Fonts
+
+    Theme:
+    Vampire: The Masquerade - Bloodlines Discord Theme
+
+    Description:
+    Global typography system.
+
+==========================================================*/
+
+
+/*==========================================================
+    Local Fonts
+==========================================================*/
+
+@font-face{
+    font-family: "Wolf's Bane";
+    src: url("../../Assets/Fonts/WolfsBane2.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "Kruella";
+    src: url("../../Assets/Fonts/Kruella-Regular.otf") format("truetype");
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "Mephisto";
+    src: url("../../Assets/Fonts/Mephisto.ttf") format("truetype");
+    font-display: swap;
+}
+
+
+/*==========================================================
+    Fallback
+==========================================================*/
+
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap");
+
+
+/*==========================================================
+    Variables
+==========================================================*/
+
+:root{
+
+    /*======================================================
+        Font Families
+    ======================================================*/
+
+    --font-display:
+        "Wolf's Bane",
+        "IM Fell English",
+        serif;
+
+    --font-heading:
+        "Kruella",
+        "IM Fell English",
+        serif;
+
+    --font-body:
+        "Mephisto",
+        "IM Fell English",
+        serif;
+
+    --font-fallback:
+        "IM Fell English",
+        Georgia,
+        serif;
+
+
+    /*======================================================
+        Font Sizes
+    ======================================================*/
+
+    --font-size-2xs: 10px;
+    --font-size-xs: 11px;
+    --font-size-sm: 12px;
+
+    --font-size-md: 14px;
+
+    --font-size-lg: 16px;
+
+    --font-size-xl: 18px;
+
+    --font-size-2xl: 22px;
+
+    --font-size-3xl: 28px;
+
+    --font-size-4xl: 36px;
+
+
+    /*======================================================
+        Font Weights
+    ======================================================*/
+
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+
+    /*======================================================
+        Letter Spacing
+    ======================================================*/
+
+    --font-spacing-tight: .02em;
+    --font-spacing-normal: .05em;
+    --font-spacing-wide: .10em;
+    --font-spacing-display: .16em;
+
+
+    /*======================================================
+        Line Heights
+    ======================================================*/
+
+    --font-line-tight: 1.15;
+    --font-line-normal: 1.45;
+    --font-line-loose: 1.70;
+
+}
+
+
+/*==========================================================
+    Typography Roles
+==========================================================*/
+
+:root{
+
+    /*======================================================
+        Primary Display
+    ======================================================*/
+
+    --font-logo:
+        var(--font-display);
+
+    --font-server-name:
+        var(--font-display);
+
+    --font-nickname:
+        var(--font-display);
+
+    --font-main-title:
+        var(--font-display);
+
+
+    /*======================================================
+        Interface Headings
+    ======================================================*/
+
+    --font-title:
+        var(--font-heading);
+
+    --font-subtitle:
+        var(--font-heading);
+
+    --font-category:
+        var(--font-heading);
+
+    --font-channel:
+        var(--font-heading);
+
+    --font-button:
+        var(--font-heading);
+
+    --font-placeholder:
+        var(--font-heading);
+
+    --font-section:
+        var(--font-heading);
+
+
+    /*======================================================
+        Body
+    ======================================================*/
+
+    --font-message:
+        var(--font-body);
+
+    --font-menu:
+        var(--font-body);
+
+    --font-description:
+        var(--font-body);
+
+    --font-profile:
+        var(--font-body);
+
+    --font-settings:
+        var(--font-body);
+
+    --font-tooltip:
+        var(--font-body);
+
+    --font-timestamp:
+        var(--font-body);
+
+}

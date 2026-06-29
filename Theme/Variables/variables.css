@@ -1,0 +1,186 @@
+/*==========================================================
+    MODULE
+
+    Name:
+    Variables
+
+    Theme:
+    Vampire: The Masquerade - Bloodlines Discord Theme
+
+    Description:
+    Global variables shared across the entire theme.
+
+==========================================================*/
+
+:root {
+
+    /*======================================================
+        Border Radius
+    ======================================================*/
+
+    --radius-none: 0px;
+    --radius-xs: 2px;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 10px;
+    --radius-pill: 999px;
+
+
+    /*======================================================
+        Borders
+    ======================================================*/
+
+    --border-width-thin: 1px;
+    --border-width-normal: 2px;
+    --border-width-thick: 3px;
+
+
+    /*======================================================
+        Spacing
+    ======================================================*/
+
+    --space-2xs: 2px;
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 12px;
+    --space-lg: 16px;
+    --space-xl: 24px;
+    --space-2xl: 32px;
+
+
+    /*======================================================
+        Motion
+    ======================================================*/
+
+    --motion-fast: .15s;
+    --motion-normal: .25s;
+    --motion-slow: .40s;
+
+    --animation-sidebar: 20s;
+    --animation-chat: 35s;
+    --animation-fire: 14s;
+
+
+    /*======================================================
+        Opacity
+    ======================================================*/
+
+    --opacity-hidden: 0;
+    --opacity-low: .08;
+    --opacity-soft: .15;
+    --opacity-medium: .30;
+    --opacity-strong: .55;
+    --opacity-full: 1;
+
+
+    /*======================================================
+        Shadows
+    ======================================================*/
+
+    --shadow-soft:
+        0 0 10px rgba(0,0,0,.35);
+
+    --shadow-medium:
+        0 0 18px rgba(0,0,0,.55);
+
+    --shadow-hard:
+        0 0 28px rgba(0,0,0,.80);
+
+
+    /*======================================================
+        Blur
+    ======================================================*/
+
+    --blur-soft: 4px;
+    --blur-medium: 8px;
+    --blur-heavy: 16px;
+
+
+    /*======================================================
+        Layers
+    ======================================================*/
+
+    --z-background: -1;
+    --z-base: 1;
+    --z-content: 10;
+    --z-overlay: 100;
+    --z-modal: 1000;
+    --z-tooltip: 9999;
+
+
+    /*======================================================
+        Typography
+    ======================================================*/
+
+    --letter-spacing-tight: .02em;
+    --letter-spacing-normal: .05em;
+    --letter-spacing-wide: .12em;
+
+    --line-height-tight: 1.15;
+    --line-height-normal: 1.45;
+    --line-height-loose: 1.75;
+
+
+    /*======================================================
+        Hover
+    ======================================================*/
+
+    --hover-shift: 6px;
+    --hover-scale: 1.03;
+
+
+    /*======================================================
+        Background Symbols
+    ======================================================*/
+
+    --clan-symbol-opacity: .035;
+    --sect-symbol-opacity: .05;
+
+    --background-symbol-size: 520px;
+    --background-symbol-rotation: 8deg;
+
+
+    /*======================================================
+        Fire System
+    ======================================================*/
+
+    --embers-opacity: .22;
+    --embers-height: 56px;
+    --embers-blur: 18px;
+
+
+    /*======================================================
+        Scrollbars
+    ======================================================*/
+
+    --scrollbar-width: 8px;
+    --scrollbar-radius: 999px;
+
+
+    /*======================================================
+        Message Hover
+    ======================================================*/
+
+    --message-hover-offset: 6px;
+    --message-hover-border: 2px;
+
+
+    /*======================================================
+        Containers
+    ======================================================*/
+
+    --container-padding: 12px;
+    --container-gap: 10px;
+
+
+    /*======================================================
+        Transition
+    ======================================================*/
+
+    --transition-default:
+        all var(--motion-normal) ease;
+
+    --transition-slow:
+        all var(--motion-slow) ease;
+
+}

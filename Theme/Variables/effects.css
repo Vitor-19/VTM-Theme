@@ -1,0 +1,195 @@
+/*==========================================================
+    MODULE
+
+    Name:
+    Effects
+
+    Theme:
+    Vampire: The Masquerade - Bloodlines Discord Theme
+
+    Description:
+    Global reusable visual effects.
+
+==========================================================*/
+
+:root{
+
+/*==========================================================
+    Blood Panels
+==========================================================*/
+
+    --panel-primary:
+        linear-gradient(
+            180deg,
+            var(--color-bg-1) 0%,
+            var(--color-bg-3) 100%
+        );
+
+    --panel-secondary:
+        linear-gradient(
+            180deg,
+            rgba(33,3,3,.96),
+            rgba(4,0,1,.98)
+        );
+
+    --panel-floating:
+        linear-gradient(
+            180deg,
+            rgba(10,0,0,.93),
+            rgba(1,1,1,.97)
+        );
+
+
+/*==========================================================
+    Message Hover
+==========================================================*/
+
+    --effect-message-hover:
+
+        linear-gradient(
+
+            90deg,
+
+            rgba(114,30,30,.22) 0%,
+
+            rgba(59,9,9,.10) 45%,
+
+            transparent 100%
+
+        );
+
+
+/*==========================================================
+    Borders
+==========================================================*/
+
+    --effect-border:
+
+        1px solid var(--color-border-primary);
+
+    --effect-border-strong:
+
+        2px solid var(--color-blood-500);
+
+    --effect-border-soft:
+
+        1px solid var(--color-border-soft);
+
+
+/*==========================================================
+    Shadows
+==========================================================*/
+
+    --effect-shadow-soft:
+
+        0 3px 10px rgba(0,0,0,.30);
+
+    --effect-shadow-medium:
+
+        0 8px 18px rgba(0,0,0,.45);
+
+    --effect-shadow-heavy:
+
+        0 12px 28px rgba(0,0,0,.70);
+
+
+/*==========================================================
+    Text Shadows
+==========================================================*/
+
+    --effect-text-soft:
+
+        1px 1px 2px rgba(0,0,0,.65);
+
+    --effect-text-medium:
+
+        2px 2px 5px rgba(0,0,0,.80);
+
+    --effect-text-heavy:
+
+        0 0 12px rgba(0,0,0,.95);
+
+
+/*==========================================================
+    Overlays
+==========================================================*/
+
+    --overlay-dark:
+
+        rgba(0,0,0,.45);
+
+    --overlay-heavy:
+
+        rgba(0,0,0,.70);
+
+    --overlay-blackout:
+
+        rgba(0,0,0,.90);
+
+
+/*==========================================================
+    Scrollbars
+==========================================================*/
+
+    --scrollbar-track:
+
+        rgba(8,8,8,.75);
+
+    --scrollbar-thumb:
+
+        linear-gradient(
+
+            180deg,
+
+            var(--color-blood-400),
+
+            var(--color-blood-300)
+
+        );
+
+
+/*==========================================================
+    Embers
+==========================================================*/
+
+    --embers-gradient:
+
+        radial-gradient(
+
+            circle,
+
+            rgba(224,115,115,.18),
+
+            transparent 70%
+
+        );
+
+}
+
+
+/*==========================================================
+    Utility Classes
+==========================================================*/
+
+/*
+    These classes may be used in future plugins
+    or utility components.
+*/
+
+.bd-shadow-soft{
+
+    box-shadow: var(--effect-shadow-soft);
+
+}
+
+.bd-shadow-medium{
+
+    box-shadow: var(--effect-shadow-medium);
+
+}
+
+.bd-shadow-heavy{
+
+    box-shadow: var(--effect-shadow-heavy);
+
+}

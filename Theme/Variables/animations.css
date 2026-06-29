@@ -1,0 +1,208 @@
+/*==========================================================
+    MODULE
+
+    Name:
+    Animations
+
+    Theme:
+    Vampire: The Masquerade - Bloodlines Discord Theme
+
+    Description:
+    Global interface animations.
+
+==========================================================*/
+
+/*==========================================================
+    Fade
+==========================================================*/
+
+@keyframes bd-fade-in{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+@keyframes bd-fade-out{
+
+    from{
+
+        opacity:1;
+
+    }
+
+    to{
+
+        opacity:0;
+
+    }
+
+}
+
+
+/*==========================================================
+    Slide
+==========================================================*/
+
+@keyframes bd-slide-left{
+
+    from{
+
+        transform:translateX(8px);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:translateX(0);
+
+        opacity:1;
+
+    }
+
+}
+
+@keyframes bd-slide-right{
+
+    from{
+
+        transform:translateX(-8px);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:translateX(0);
+
+        opacity:1;
+
+    }
+
+}
+
+
+/*==========================================================
+    Hover
+==========================================================*/
+
+@keyframes bd-hover{
+
+    from{
+
+        transform:translateX(0);
+
+    }
+
+    to{
+
+        transform:translateX(var(--hover-shift));
+
+    }
+
+}
+
+
+/*==========================================================
+    Pulse
+==========================================================*/
+
+@keyframes bd-pulse{
+
+    0%{
+
+        opacity:.85;
+
+    }
+
+    50%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        opacity:.85;
+
+    }
+
+}
+
+
+/*==========================================================
+    Floating
+==========================================================*/
+
+@keyframes bd-floating{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-3px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+
+/*==========================================================
+    Soft Breathing
+
+    Used for:
+        - Backgrounds
+        - Decorative symbols
+        - Icons
+
+==========================================================*/
+
+@keyframes bd-breath{
+
+    0%{
+
+        opacity:.18;
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        opacity:.28;
+
+        transform:scale(1.02);
+
+    }
+
+    100%{
+
+        opacity:.18;
+
+        transform:scale(1);
+
+    }
+
+}
