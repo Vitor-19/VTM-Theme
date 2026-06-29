@@ -8,6 +8,15 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Modular BetterDiscord entrypoint.
+- GitHub CDN module loading via jsDelivr.
+
+### Changed
+
+- Replaced GitHub Raw imports with jsDelivr CDN for BetterDiscord compatibility.
+
+### Added
+
 - BetterDiscord modular entrypoint.
 - Remote CSS loading through GitHub raw imports.
 
