@@ -19,10 +19,8 @@
 
 :root{
 
-    --scrollbar-width:4px;
-    --scrollbar-width-hover:6px;
-
-    --scrollbar-radius:3px;
+--scrollbar-width:4px;
+--scrollbar-radius:3px;
 
 }
 
@@ -43,7 +41,7 @@
 
     transition:
 
-        width var(--layout-transition);
+        background var(--layout-transition);
 
 }
 
@@ -101,48 +99,10 @@
 
     transition:
 
-        background var(--layout-transition),
-        width var(--layout-transition),
-        filter var(--layout-transition);
+    background var(--layout-transition),
+    filter var(--layout-transition);
 
 }
-
-
-/*==========================================================
-    Hover
-==========================================================*/
-
-*::-webkit-scrollbar:hover{
-
-    width:
-
-        var(--scrollbar-width-hover);
-
-}
-
-
-*::-webkit-scrollbar-thumb:hover{
-
-    background:
-
-        linear-gradient(
-
-            180deg,
-
-            var(--color-blood-100),
-
-            var(--color-blood-200),
-
-            var(--color-blood-300)
-
-        );
-
-    filter:
-
-        brightness(1.08);
-
-}
-
 
 /*==========================================================
     Active
