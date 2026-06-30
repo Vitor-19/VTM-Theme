@@ -1,0 +1,123 @@
+/*==========================================================
+    MODULE
+
+    Name:
+    Guild Bar
+
+    Theme:
+    Vampire: The Masquerade - Bloodlines Discord Theme
+
+    Description:
+    Server list foundation.
+
+==========================================================*/
+
+
+/*==========================================================
+    Guild Sidebar
+==========================================================*/
+
+.guilds_c48ade{
+
+    background:
+
+        linear-gradient(
+
+            180deg,
+
+            var(--color-bg-2) 0%,
+
+            var(--color-bg-1) 45%,
+
+            var(--color-bg-2) 100%
+
+        ) !important;
+
+    border-right:
+
+        1px solid var(--effect-border-subtle);
+
+    padding:
+
+        var(--layout-panel-padding) 6px;
+
+    gap:
+
+        8px;
+
+    overflow:
+
+        hidden;
+
+}
+
+
+/*==========================================================
+    Guild Scroller
+==========================================================*/
+
+.guilds_c48ade .scrollerBase__99f8c{
+
+    background:
+
+        transparent !important;
+
+}
+
+
+/*==========================================================
+    Guild List
+==========================================================*/
+
+.guilds_c48ade ul{
+
+    gap:
+
+        8px;
+
+}
+
+
+/*==========================================================
+    Guild Separators
+==========================================================*/
+
+.guildSeparator__252b6{
+
+    background:
+
+        color-mix(
+
+            in srgb,
+
+            var(--color-blood-300) 45%,
+
+            transparent
+
+        ) !important;
+
+    height:
+
+        1px;
+
+    border-radius:
+
+        999px;
+
+}
+
+
+/*==========================================================
+    Guild Container
+==========================================================*/
+
+.guilds_c48ade *{
+
+    transition:
+
+        background var(--layout-transition),
+        border-color var(--layout-transition),
+        color var(--layout-transition),
+        filter var(--layout-transition);
+
+}
