@@ -8,16 +8,28 @@
     Vampire: The Masquerade - Bloodlines Discord Theme
 
     Description:
-    Server list foundation.
+    Global server list layout.
 
 ==========================================================*/
 
 
 /*==========================================================
-    Guild Sidebar
+    Guild Bar Background
 ==========================================================*/
 
-.guilds_c48ade{
+.guilds__5e434{
+
+    position:relative;
+
+}
+
+.guilds__5e434::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
 
     background:
 
@@ -25,99 +37,86 @@
 
             180deg,
 
-            var(--color-bg-2) 0%,
+            var(--color-bg-2),
 
-            var(--color-bg-1) 45%,
+            var(--color-bg-1)
 
-            var(--color-bg-2) 100%
+        );
 
-        ) !important;
+    pointer-events:none;
 
-    border-right:
+    z-index:0;
 
-        1px solid var(--effect-border-subtle);
+}
 
-    padding:
+.tree_ef3116{
 
-        var(--layout-panel-padding) 6px;
-
-    gap:
-
-        8px;
-
-    overflow:
-
-        hidden;
+    position:relative;
 
 }
 
 
 /*==========================================================
-    Guild Scroller
+    Guild Wrapper
 ==========================================================*/
 
-.guilds_c48ade .scrollerBase__99f8c{
-
-    background:
-
-        transparent !important;
-
-}
-
-
-/*==========================================================
-    Guild List
-==========================================================*/
-
-.guilds_c48ade ul{
-
-    gap:
-
-        8px;
-
-}
-
-
-/*==========================================================
-    Guild Separators
-==========================================================*/
-
-.guildSeparator__252b6{
-
-    background:
-
-        color-mix(
-
-            in srgb,
-
-            var(--color-blood-300) 45%,
-
-            transparent
-
-        ) !important;
-
-    height:
-
-        1px;
-
-    border-radius:
-
-        999px;
-
-}
-
-
-/*==========================================================
-    Guild Container
-==========================================================*/
-
-.guilds_c48ade *{
+.wrapper_cc5dd2{
 
     transition:
 
-        background var(--layout-transition),
-        border-color var(--layout-transition),
-        color var(--layout-transition),
+        var(--layout-transition);
+
+}
+
+
+/*==========================================================
+    Guild Hover
+==========================================================*/
+
+.wrapper_cc5dd2:hover{
+
+    transform:
+
+        translateX(5px);
+
+}
+
+
+/*==========================================================
+    Guild Icons
+==========================================================*/
+
+.wrapper__6e9f8{
+
+    filter:
+
+        brightness(.82)
+        saturate(.90);
+
+    transition:
+
         filter var(--layout-transition);
+
+}
+
+.wrapper__6e9f8:hover{
+
+    filter:
+
+        brightness(1)
+        saturate(1);
+
+}
+
+
+/*==========================================================
+    Active Indicator
+==========================================================*/
+
+.item__58105{
+
+    background:
+
+        var(--color-blood-300) !important;
 
 }

@@ -17,6 +17,10 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
+- Reworked Guild Bar background rendering using layered pseudo-elements.
+- Restored native Discord scrolling behavior.
+- Fixed active guild indicator compatibility.
+- Improved Guild Bar visual structure.
 - Defined the project's visual identity.
 - Added the official typography hierarchy:
   - Wolf's Bane
