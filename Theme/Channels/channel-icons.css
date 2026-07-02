@@ -12,48 +12,29 @@
 
 ==========================================================*/
 
-/*==========================================================
-    Channel Icons
-==========================================================*/
+.iconContainer__2ea32{
 
-.icon__2ea32{
+    position:relative;
 
-    color:
+    display:flex;
 
-        var(--color-blood-300);
+    align-items:center;
+
+    justify-content:center;
 
 }
 
-
-/*==========================================================
-    Hide Discord Icon
-==========================================================*/
-
-.icon__2ea32 path{
+.icon__2ea32{
 
     display:none;
 
 }
 
-
-/*==========================================================
-    Bloodlines Icon
-==========================================================*/
-
-.icon__2ea32{
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-}
-
-
-.icon__2ea32::before{
+.iconContainer__2ea32::before{
 
     content:"";
+
+    display:block;
 
     width:18px;
 
@@ -61,21 +42,11 @@
 
     background:
 
-        currentColor;
-
-    mask:
-
         url("../../Assets/Icons/ankh.svg")
 
-        center / contain
+        center
 
-        no-repeat;
-
-    -webkit-mask:
-
-        url("../../Assets/Icons/ankh.svg")
-
-        center / contain
+        /contain
 
         no-repeat;
 
