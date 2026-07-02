@@ -56,7 +56,8 @@ All remaining modules are loaded directly from GitHub during development.
 │   ├── Channels/
 │   │   ├── sidebar.css
 │   │   ├── categories.css
-│   │   └── channels.css
+│   │   └── channels.css 
+│   │   └── channel-icons.css
 │   │
 │   ├── Chat/
 │   │   ├── chat.css
