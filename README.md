@@ -6,7 +6,7 @@ A BetterDiscord theme inspired by Vampire: The Masquerade – Bloodlines (2004).
 
 ## 🛡️ Dark Pack Agreement
 
-![Dark Pack Logo](Assets/Branding/nome-do-arquivo.png)
+![Dark Pack Logo](Assets/Branding/DarkPack_Logo_Color.png)
 
 Portions of the materials are the copyrights and trademarks of Paradox Interactive AB, and are used with permission. All rights reserved. For more information please visit [worldofdarkness.com](https://www.worldofdarkness.com/).
 
