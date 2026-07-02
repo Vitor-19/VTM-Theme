@@ -4,6 +4,16 @@ A BetterDiscord theme inspired by Vampire: The Masquerade – Bloodlines (2004).
 
 > Reimagining Discord as if it had been designed by Troika Games in 2004.
 
+## 🛡️ Dark Pack Agreement
+
+![Dark Pack Logo](Assets/Branding/nome-do-arquivo.png)
+
+Portions of the materials are the copyrights and trademarks of Paradox Interactive AB, and are used with permission. All rights reserved. For more information please visit [worldofdarkness.com](https://www.worldofdarkness.com/).
+
+*This is a fan-made project and is not an official World of Darkness product.*
+
+---
+
 ## Status
 
 🚧 In Development
@@ -123,4 +133,6 @@ All remaining modules are loaded directly from GitHub during development.
 
 ## License
 
-MIT
+This project is licensed under the **MIT License**. 
+
+*Note: This license applies only to the source code and CSS architecture created by the developer. All World of Darkness assets (clans symbols, iconography, and aesthetic elements inspired by VTM) remain the property of Paradox Interactive AB and are used under the terms of the Dark Pack Agreement.*
