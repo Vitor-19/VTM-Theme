@@ -1,0 +1,82 @@
+/*==========================================================
+    MODULE
+
+    Name:
+    Channel Icons
+
+    Theme:
+    Vampire: The Masquerade - Bloodlines Discord Theme
+
+    Description:
+    Custom icons for text and voice channels.
+
+==========================================================*/
+
+/*==========================================================
+    Channel Icons
+==========================================================*/
+
+.icon__2ea32{
+
+    color:
+
+        var(--color-blood-300);
+
+}
+
+
+/*==========================================================
+    Hide Discord Icon
+==========================================================*/
+
+.icon__2ea32 path{
+
+    display:none;
+
+}
+
+
+/*==========================================================
+    Bloodlines Icon
+==========================================================*/
+
+.icon__2ea32{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+.icon__2ea32::before{
+
+    content:"";
+
+    width:18px;
+
+    height:18px;
+
+    background:
+
+        currentColor;
+
+    mask:
+
+        url("../../Assets/Icons/ankh.svg")
+
+        center / contain
+
+        no-repeat;
+
+    -webkit-mask:
+
+        url("../../Assets/Icons/ankh.svg")
+
+        center / contain
+
+        no-repeat;
+
+}
