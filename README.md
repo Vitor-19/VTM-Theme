@@ -114,7 +114,12 @@ All remaining modules are loaded directly from GitHub during development.
 │       └── Mephisto.ttf
 │       └── wolfsbane2.ttf
 │   ├── Icons/
-│       └── ankh.svg
+│       └── forum-limited.svg
+│       └── forum.svg
+│       └── text-limited.svg
+│       └── text.svg
+│       └── voice-limited.svg
+│       └── voice.svg
 │   ├── Branding/
 │       └── DarkPack_Logo_Color.png
 │   ├── Clans/
