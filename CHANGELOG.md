@@ -8,6 +8,11 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Custom channel icons
+- Support for limited text channels
+- Support for limited voice channels
+- Support for limited forum channels
+- Custom hover effects for channel list
 - BetterDiscord modular entrypoint.
 - Global variables system.
 - Color palette.
