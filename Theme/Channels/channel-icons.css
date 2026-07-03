@@ -43,23 +43,25 @@
 
     background-size:contain;
 
-    opacity:.82;
+    opacity:.80;
 
     pointer-events:none;
 
     transition:
-
         opacity var(--layout-transition),
-        transform var(--layout-transition);
+        transform var(--layout-transition),
+        filter var(--layout-transition);
 
 }
 
-.link__2ea32:hover
-.iconContainer__2ea32::after{
 
-    opacity:1;
+/*==========================================================
+    Hide Discord Icons
+==========================================================*/
 
-    transform:scale(1.08);
+.iconContainer__2ea32 .icon__2ea32{
+
+    opacity:0;
 
 }
 
@@ -70,10 +72,7 @@
 
 .iconContainer__2ea32::after{
 
-    opacity:.80;
-
     filter:
-
         brightness(0)
         saturate(100%)
         invert(18%)
@@ -84,6 +83,7 @@
         contrast(1.1);
 
 }
+
 .link__2ea32:hover
 .iconContainer__2ea32::after{
 
@@ -92,7 +92,6 @@
     transform:scale(1.08);
 
     filter:
-
         brightness(0)
         saturate(100%)
         invert(24%)
@@ -103,13 +102,15 @@
         contrast(1.15);
 
 }
+
 .modeSelected__2ea32
 .iconContainer__2ea32::after{
 
     opacity:1;
 
-    filter:
+    transform:scale(1.06);
 
+    filter:
         brightness(0)
         saturate(100%)
         invert(32%)
@@ -122,89 +123,72 @@
 
 
 /*==========================================================
-    Hide Default Discord Icons
-==========================================================*/
-
-.iconContainer__2ea32 .icon__2ea32{
-
-    opacity:0;
-
-}
-
-
-/*==========================================================
-    Text Channel
+    Text
 ==========================================================*/
 
 .iconContainer__2ea32[aria-label="Texto icon"]::after{
 
     background-image:
-
         url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/text.svg");
 
 }
 
 
 /*==========================================================
-    Voice Channel
+    Voice
 ==========================================================*/
 
 .iconContainer__2ea32[aria-label="Voz icon"]::after{
 
     background-image:
-
-        url("../../Assets/Icons/voice.svg");
+        url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice.svg");
 
 }
 
 
 /*==========================================================
-    Forum Channel
+    Forum
 ==========================================================*/
 
 .iconContainer__2ea32[aria-label="Fórum icon"]::after{
 
     background-image:
-
-        url("../../Assets/Icons/forum.svg");
+        url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/forum.svg");
 
 }
 
 
 /*==========================================================
-    Limited Text Channel
+    Limited Text
 ==========================================================*/
 
 .iconContainer__2ea32[aria-label="Texto (Limitado) icon"]::after{
 
     background-image:
-
-        url("../../Assets/Icons/text-limited.svg");
+        url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/text-limited.svg");
 
 }
 
 
 /*==========================================================
-    Limited Voice Channel
+    Limited Voice
 ==========================================================*/
 
 .iconContainer__2ea32[aria-label="Voz (Limitado) icon"]::after{
 
     background-image:
-
-        url("../../Assets/Icons/voice-limited.svg");
+        url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice-limited.svg");
 
 }
 
 
 /*==========================================================
-    Limited Forum Channel
+    Limited Forum
 ==========================================================*/
 
 .iconContainer__2ea32[aria-label="Fórum (limitado) icon"]::after{
 
     background-image:
-
-        url("../../Assets/Icons/forum-limited.svg");
+        url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/forum-limited.svg");
 
 }
