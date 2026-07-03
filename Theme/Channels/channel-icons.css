@@ -65,6 +65,63 @@
 
 
 /*==========================================================
+    Icon Color
+==========================================================*/
+
+.iconContainer__2ea32::after{
+
+    opacity:.80;
+
+    filter:
+
+        brightness(0)
+        saturate(100%)
+        invert(18%)
+        sepia(98%)
+        saturate(2200%)
+        hue-rotate(345deg)
+        brightness(.82)
+        contrast(1.1);
+
+}
+.link__2ea32:hover
+.iconContainer__2ea32::after{
+
+    opacity:1;
+
+    transform:scale(1.08);
+
+    filter:
+
+        brightness(0)
+        saturate(100%)
+        invert(24%)
+        sepia(100%)
+        saturate(3500%)
+        hue-rotate(350deg)
+        brightness(1)
+        contrast(1.15);
+
+}
+.modeSelected__2ea32
+.iconContainer__2ea32::after{
+
+    opacity:1;
+
+    filter:
+
+        brightness(0)
+        saturate(100%)
+        invert(32%)
+        sepia(100%)
+        saturate(5000%)
+        hue-rotate(355deg)
+        brightness(1.05);
+
+}
+
+
+/*==========================================================
     Hide Default Discord Icons
 ==========================================================*/
 
