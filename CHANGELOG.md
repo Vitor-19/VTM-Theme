@@ -13,6 +13,8 @@ All notable changes to this project will be documented in this file.
 - Support for limited voice channels
 - Support for limited forum channels
 - Custom hover effects for channel list
+- Custom selected channel styling
+- Channel activity indicator
 - BetterDiscord modular entrypoint.
 - Global variables system.
 - Color palette.
@@ -32,6 +34,15 @@ All notable changes to this project will be documented in this file.
   - Kruella
   - Mephisto
 - Replaced GitHub Raw imports with jsDelivr CDN for BetterDiscord compatibility.
+- Replaced default Discord channel icons with custom Vampire-themed icons.
+- Redesigned channel hover and selection visuals.
+
+### Fixed
+
+- Fixed custom SVG channel icon rendering.
+- Fixed BetterDiscord compatibility with remote SVG assets.
+- Fixed private forum icon detection.
+- Fixed icon replacement behavior across channel types.
 
 ### Infrastructure
 
