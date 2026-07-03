@@ -1,0 +1,147 @@
+
+/*==========================================================
+    MODULE
+
+    Name:
+    Channels
+
+==========================================================*/
+
+
+/*==========================================================
+    Base
+==========================================================*/
+
+.wrapper__2ea32{
+
+    position:relative;
+
+    border-radius:6px;
+
+    transition:
+        background var(--layout-transition),
+        color var(--layout-transition);
+
+}
+
+
+/*==========================================================
+    Channel Name
+==========================================================*/
+
+.name__2ea32{
+
+    display:flex;
+
+    align-items:center;
+
+    width:100%;
+
+    color:var(--color-text-secondary);
+
+    transition:
+        color var(--layout-transition);
+
+}
+
+
+/*==========================================================
+    Hover
+==========================================================*/
+
+.wrapper__2ea32:hover{
+
+    background:var(--color-hover-bg);
+
+}
+
+.wrapper__2ea32:hover
+.name__2ea32{
+
+    color:var(--color-text-primary);
+
+}
+
+
+/*==========================================================
+    Selected
+==========================================================*/
+
+.modeSelected__2ea32{
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(114,30,30,.28),
+            rgba(59,9,9,.10),
+            transparent
+        ) !important;
+
+}
+
+.modeSelected__2ea32
+.name__2ea32{
+
+    color:var(--color-text-primary);
+
+}
+
+
+/*==========================================================
+    Selected Indicator
+==========================================================*/
+
+.modeSelected__2ea32::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:-8px;
+
+    top:6px;
+
+    bottom:6px;
+
+    width:3px;
+
+    border-radius:999px;
+
+    background:var(--color-blood-300);
+
+}
+/*==========================================================
+    Selected Channel Prefix
+==========================================================*/
+
+.modeSelected__2ea32
+.name__2ea32{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.modeSelected__2ea32
+.name__2ea32::after{
+
+    content:"│";
+
+    margin-left:auto;
+
+    color:var(--color-text-primary);
+
+    opacity:.9;
+
+}
+.wrapper__2ea32:hover
+.name__2ea32::after{
+
+    content:"│";
+
+    margin-left:auto;
+
+    color:var(--color-blood-400);
+
+}
