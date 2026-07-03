@@ -8,46 +8,146 @@
     Vampire: The Masquerade - Bloodlines Discord Theme
 
     Description:
-    Custom icons for text and voice channels.
+    Replaces Discord channel icons with custom Vampire icons.
 
+==========================================================*/
+
+
+/*==========================================================
+    Base
 ==========================================================*/
 
 .iconContainer__2ea32{
 
     position:relative;
 
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
 }
 
-.icon__2ea32{
-
-    display:none;
-
-}
-
-.iconContainer__2ea32::before{
+.iconContainer__2ea32::after{
 
     content:"";
 
-    display:block;
+    position:absolute;
+
+    inset:0;
 
     width:18px;
 
     height:18px;
 
-    background:
+    margin:auto;
 
-        url("../../Assets/Icons/ankh.svg")
+    background-position:center;
 
-        center
+    background-repeat:no-repeat;
 
-        /contain
+    background-size:contain;
 
-        no-repeat;
+    opacity:.82;
+
+    pointer-events:none;
+
+    transition:
+
+        opacity var(--layout-transition),
+        transform var(--layout-transition);
+
+}
+
+.link__2ea32:hover
+.iconContainer__2ea32::after{
+
+    opacity:1;
+
+    transform:scale(1.08);
+
+}
+
+
+/*==========================================================
+    Hide Default Discord Icons
+==========================================================*/
+
+.iconContainer__2ea32 .icon__2ea32{
+
+    opacity:0;
+
+}
+
+
+/*==========================================================
+    Text Channel
+==========================================================*/
+
+.iconContainer__2ea32[aria-label="Texto icon"]::after{
+
+    background-image:
+
+        url("../../Assets/Icons/text.svg");
+
+}
+
+
+/*==========================================================
+    Voice Channel
+==========================================================*/
+
+.iconContainer__2ea32[aria-label="Voz icon"]::after{
+
+    background-image:
+
+        url("../../Assets/Icons/voice.svg");
+
+}
+
+
+/*==========================================================
+    Forum Channel
+==========================================================*/
+
+.iconContainer__2ea32[aria-label="Fórum icon"]::after{
+
+    background-image:
+
+        url("../../Assets/Icons/forum.svg");
+
+}
+
+
+/*==========================================================
+    Limited Text Channel
+==========================================================*/
+
+.iconContainer__2ea32[aria-label="Texto (Limitado) icon"]::after{
+
+    background-image:
+
+        url("../../Assets/Icons/text-limited.svg");
+
+}
+
+
+/*==========================================================
+    Limited Voice Channel
+==========================================================*/
+
+.iconContainer__2ea32[aria-label="Voz (Limitado) icon"]::after{
+
+    background-image:
+
+        url("../../Assets/Icons/voice-limited.svg");
+
+}
+
+
+/*==========================================================
+    Limited Forum Channel
+==========================================================*/
+
+.iconContainer__2ea32[aria-label="Fórum (Limitado) icon"]::after{
+
+    background-image:
+
+        url("../../Assets/Icons/forum-limited.svg");
 
 }
