@@ -4,12 +4,6 @@
     Name:
     Channel Icons
 
-    Theme:
-    Vampire: The Masquerade - Bloodlines Discord Theme
-
-    Description:
-    Replaces Discord channel icons with custom Vampire icons.
-
 ==========================================================*/
 
 
@@ -37,9 +31,9 @@
 
     margin:auto;
 
-    background-position:center;
-
     background-repeat:no-repeat;
+
+    background-position:center;
 
     background-size:contain;
 
@@ -59,9 +53,37 @@
     Hide Discord Icons
 ==========================================================*/
 
-.iconContainer__2ea32 .icon__2ea32{
+.icon__2ea32{
 
-    opacity:0;
+    display:none !important;
+
+}
+
+
+/*==========================================================
+    Hover
+==========================================================*/
+
+.link__2ea32:hover
+.iconContainer__2ea32::after{
+
+    opacity:1;
+
+    transform:scale(1.08);
+
+}
+
+
+/*==========================================================
+    Selected
+==========================================================*/
+
+.modeSelected__2ea32
+.iconContainer__2ea32::after{
+
+    opacity:1;
+
+    transform:scale(1.06);
 
 }
 
@@ -87,10 +109,6 @@
 .link__2ea32:hover
 .iconContainer__2ea32::after{
 
-    opacity:1;
-
-    transform:scale(1.08);
-
     filter:
         brightness(0)
         saturate(100%)
@@ -106,18 +124,13 @@
 .modeSelected__2ea32
 .iconContainer__2ea32::after{
 
-    opacity:1;
-
-    transform:scale(1.06);
-
     filter:
         brightness(0)
         saturate(100%)
-        invert(32%)
-        sepia(100%)
-        saturate(5000%)
-        hue-rotate(355deg)
-        brightness(1.05);
+        invert(97%)
+        sepia(3%)
+        saturate(500%)
+        brightness(1.15);
 
 }
 
@@ -128,8 +141,7 @@
 
 .iconContainer__2ea32[aria-label="Texto icon"]::after{
 
-    background-image:
-        url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/text.svg");
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/text.svg");
 
 }
 
@@ -140,8 +152,7 @@
 
 .iconContainer__2ea32[aria-label="Voz icon"]::after{
 
-    background-image:
-        url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice.svg");
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice.svg");
 
 }
 
@@ -152,8 +163,7 @@
 
 .iconContainer__2ea32[aria-label="Fórum icon"]::after{
 
-    background-image:
-        url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/forum.svg");
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/forum.svg");
 
 }
 
@@ -164,8 +174,7 @@
 
 .iconContainer__2ea32[aria-label="Texto (Limitado) icon"]::after{
 
-    background-image:
-        url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/text-limited.svg");
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/text-limited.svg");
 
 }
 
@@ -176,8 +185,7 @@
 
 .iconContainer__2ea32[aria-label="Voz (Limitado) icon"]::after{
 
-    background-image:
-        url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice-limited.svg");
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice-limited.svg");
 
 }
 
@@ -188,7 +196,6 @@
 
 .iconContainer__2ea32[aria-label="Fórum (limitado) icon"]::after{
 
-    background-image:
-        url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/forum-limited.svg");
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/forum-limited.svg");
 
 }
