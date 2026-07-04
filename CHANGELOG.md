@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Custom member list styling.
 - Custom channel icons
 - Support for limited text channels
 - Support for limited voice channels
