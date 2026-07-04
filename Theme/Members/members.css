@@ -1,0 +1,242 @@
+/*==========================================================
+    MODULE
+
+    Name:
+    Members
+
+    Theme:
+    Vampire: The Masquerade - Bloodlines Discord Theme
+
+==========================================================*/
+
+
+/*==========================================================
+    Member List Background
+==========================================================*/
+
+.members_c8ffbb{
+
+    background:
+
+        linear-gradient(
+            180deg,
+            var(--color-bg-2),
+            var(--color-bg-1)
+        );
+
+}
+
+
+/*==========================================================
+    Group Headers
+==========================================================*/
+
+.membersGroup_c8ffbb{
+
+    color:
+
+        var(--color-text-muted);
+
+    font-weight:600;
+
+    text-transform:uppercase;
+
+}
+
+
+/*==========================================================
+    Member Card
+==========================================================*/
+
+.member_c8ffbb{
+
+    border-radius:6px;
+
+    transition:
+        background var(--layout-transition),
+        transform var(--layout-transition);
+
+}
+
+
+/*==========================================================
+    Member Hover
+==========================================================*/
+
+.container__91a9d{
+
+    position:relative;
+
+    transition:
+        background var(--layout-transition),
+        transform var(--layout-transition);
+
+}
+
+.container__91a9d:hover{
+
+    background:
+
+        var(--color-hover-bg);
+
+    transform:
+
+        translateX(3px);
+
+}
+
+.container__91a9d:hover::after{
+
+    content:"│";
+
+    position:absolute;
+
+    right:10px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    color:
+
+        var(--color-blood-400);
+
+}
+
+/*==========================================================
+    Selected Member
+==========================================================*/
+
+.selected__91a9d{
+
+    position:relative;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            rgba(114,30,30,.28),
+            rgba(59,9,9,.10),
+            transparent
+        ) !important;
+
+}
+
+.selected__91a9d::after{
+
+    content:"│";
+
+    position:absolute;
+
+    right:10px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    color:
+
+        var(--color-text-primary);
+
+}
+
+
+/*==========================================================
+    Selected Indicator
+==========================================================*/
+
+.selected__91a9d::after{
+
+    content:"│";
+
+    position:absolute;
+
+    right:10px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    color:
+
+        var(--color-text-primary);
+
+}
+
+
+/*==========================================================
+    Username
+==========================================================*/
+
+.name__703b9{
+
+    color:
+
+        var(--color-text-secondary);
+
+    transition:
+
+        color var(--layout-transition);
+
+}
+
+.container__91a9d:hover
+.name__703b9,
+
+.selected__91a9d
+.name__703b9{
+
+    color:
+
+        var(--color-text-primary);
+
+}
+/*==========================================================
+    Avatar
+==========================================================*/
+
+.avatar__91a9d{
+
+    transition:
+
+        transform var(--layout-transition);
+
+}
+
+.container__91a9d:hover
+.avatar__91a9d{
+
+    transform:scale(1.04);
+
+}
+
+/*==========================================================
+    Reset Discord Member Background
+==========================================================*/
+
+.container__91a9d{
+
+    background:transparent;
+
+}
+
+.container__91a9d:hover{
+
+    background:
+
+        var(--color-hover-bg) !important;
+
+}
+
+.selected__91a9d{
+
+    background:
+
+        linear-gradient(
+            90deg,
+            rgba(114,30,30,.28),
+            rgba(59,9,9,.10),
+            transparent
+        ) !important;
+
+}
