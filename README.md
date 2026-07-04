@@ -79,6 +79,7 @@ All remaining modules are loaded directly from GitHub during development.
 │   ├── Members/
 │   │   ├── members.css
 │   │   └── member-card.css
+│   │   └── activities.css
 │   │
 │   ├── Profile/
 │   │   ├── popout.css
