@@ -99,7 +99,7 @@
 }
 
 /*==========================================================
-    Secondary Text (Time / Status / Badges)
+    Secondary Text
 ==========================================================*/
 
 .container__0f2e8
@@ -109,7 +109,7 @@
 
     color:
 
-        var(--color-text-muted);
+        var(--color-text-muted) !important;
 
     transition:
 
@@ -124,7 +124,7 @@
 
     color:
 
-        var(--color-text-secondary);
+        var(--color-text-primary) !important;
 
 }
 
