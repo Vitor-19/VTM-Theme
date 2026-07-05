@@ -1,0 +1,171 @@
+/*==========================================================
+    MODULE
+
+    Name:
+    Activities
+
+    Theme:
+    Vampire: The Masquerade - Bloodlines Discord Theme
+
+    Description:
+    Styles activity cards displayed above the member list.
+
+==========================================================*/
+
+
+/*==========================================================
+    Activity Cards
+==========================================================*/
+
+.container__0f2e8{
+
+    background:
+
+        linear-gradient(
+            180deg,
+            var(--color-bg-2),
+            var(--color-bg-1)
+        ) !important;
+
+    border:
+
+        1px solid var(--color-border-soft);
+
+    border-radius:8px;
+
+    transition:
+        background var(--layout-transition),
+        border-color var(--layout-transition),
+        transform var(--layout-transition);
+
+}
+
+
+/*==========================================================
+    Activity Hover
+==========================================================*/
+
+.container__0f2e8:hover{
+
+    background:
+
+        var(--color-hover-bg) !important;
+
+    border-color:
+
+        var(--color-hover-border);
+
+    transform:
+
+        translateX(3px);
+
+}
+
+
+/*==========================================================
+    Username
+==========================================================*/
+
+.userName__0f2e8
+.name__703b9{
+
+    color:
+
+        var(--color-text-secondary);
+
+}
+
+.container__0f2e8:hover
+.userName__0f2e8
+.name__703b9{
+
+    color:
+
+        var(--color-text-primary);
+
+}
+
+
+/*==========================================================
+    Game Title
+==========================================================*/
+
+.contentTitle__0f2e8{
+
+    color:
+
+        var(--color-text-primary) !important;
+
+}
+
+/*==========================================================
+    Secondary Text (Time / Status / Badges)
+==========================================================*/
+
+.container__0f2e8
+.text-xs\/normal_cf4812,
+.container__0f2e8
+.badgeLabel__635ed{
+
+    color:
+
+        var(--color-text-muted);
+
+    transition:
+
+        color var(--layout-transition);
+
+}
+
+.container__0f2e8:hover
+.text-xs\/normal_cf4812,
+.container__0f2e8:hover
+.badgeLabel__635ed{
+
+    color:
+
+        var(--color-text-secondary);
+
+}
+
+/*==========================================================
+    Activity Details
+==========================================================*/
+
+.badgeLabel__635ed,
+.badgeContainer__635ed,
+.text-xs\/normal_cf4812{
+
+    color:
+
+        var(--color-text-muted) !important;
+
+}
+
+
+/*==========================================================
+    Game Thumbnail
+==========================================================*/
+
+.thumbnail__0f2e8{
+
+    border-radius:6px;
+
+    border:
+
+        1px solid var(--color-border-soft);
+
+    transition:
+
+        border-color var(--layout-transition);
+
+}
+
+.container__0f2e8:hover
+.thumbnail__0f2e8{
+
+    border-color:
+
+        var(--color-hover-border);
+
+}
