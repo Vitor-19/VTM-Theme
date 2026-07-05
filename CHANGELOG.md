@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Bloodlines-styled channel header.
 - Custom activity cards styling.
 - Custom member list styling.
 - Custom channel icons
