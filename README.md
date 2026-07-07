@@ -76,6 +76,7 @@ All remaining modules are loaded directly from GitHub during development.
 │   │   ├── markdown.css
 │   │   └── textarea.css
 │   │   └── header.css
+│   │   └── header-icons.css
 │   │
 │   ├── Members/
 │   │   ├── members.css
