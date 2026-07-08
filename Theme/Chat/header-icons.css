@@ -53,9 +53,7 @@
     Voice Chat
 ==========================================================*/
 
-.channelIcon__9293f:has(path[d^="M12 22a10 10"])::before{
-    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/text-voice.svg");
-}
+.channelIcon__9293f[aria-label*="Bate-papo em voz"]::before{ background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice.svg"); }
 
 /*==========================================================
     Voice Channel
