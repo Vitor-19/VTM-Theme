@@ -1,80 +1,153 @@
 /*==========================================================
+    MODULE
+
+    Name:
     Header Icons
+
+==========================================================*/
+
+
+/*==========================================================
+    Base
 ==========================================================*/
 
 .channelIcon__9293f{
-    position: relative;
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
+
+    position:relative;
+    width:24px;
+    height:24px;
+    flex-shrink:0;
+
 }
+
 
 .channelIcon__9293f .icon__9293f{
-    opacity: 0;
+
+    opacity:0;
+
 }
+
 
 .channelIcon__9293f::before{
-    content: "";
-    position: absolute;
-    inset: 0;
 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 17px;
+    content:"";
 
-    pointer-events: none;
+    position:absolute;
+
+    inset:0;
+
+    width:18px;
+    height:18px;
+
+    margin:auto;
+
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+
+    opacity:.80;
+
+    pointer-events:none;
+
+    transition:
+        opacity var(--layout-transition),
+        transform var(--layout-transition),
+        filter var(--layout-transition);
+
 }
 
+
 /*==========================================================
-    Private Forum
+    Icon Color
 ==========================================================*/
 
-.channelIcon__9293f:has(path[d^="M16 4h.5"]):has(path[d^="M13.58 3.23"])::before{
-    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/forum-limited.svg");
+.channelIcon__9293f::before{
+
+    filter:
+        brightness(0)
+        saturate(100%)
+        invert(18%)
+        sepia(98%)
+        saturate(2200%)
+        hue-rotate(345deg)
+        brightness(.82)
+        contrast(1.1);
+
 }
 
-/*==========================================================
-    Private Text
-==========================================================*/
-
-.channelIcon__9293f:has(path[d^="M12.5 8c.28"])::before{
-    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/text-limited.svg");
-}
-
-/*==========================================================
-    Private Voice
-==========================================================*/
-
-.channelIcon__9293f:has(path[d^="M16 4h.5"]):has(path[d^="M11 2a1 1 0 0 1 1 1"])::before{
-    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice-limited.svg");
-}
-
-/*==========================================================
-    Voice Chat
-==========================================================*/
-
-.channelIcon__9293f[aria-label*="Bate-papo em voz"]::before{ background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice.svg"); }
-
-/*==========================================================
-    Voice Channel
-==========================================================*/
-
-.channelIcon__9293f:has(path[d^="M12 3a1 1 0 0 0-1-1"])::before{
-    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice.svg");
-}
-
-/*==========================================================
-    Forum
-==========================================================*/
-
-.channelIcon__9293f:has(path[d^="M18.91 12.98"])::before{
-    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/forum.svg");
-}
 
 /*==========================================================
     Text
 ==========================================================*/
 
 .channelIcon__9293f:has(path[d^="M10.99 3.16"])::before{
+
     background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/text.svg");
+
+}
+
+
+/*==========================================================
+    Private Text
+==========================================================*/
+
+.channelIcon__9293f:has(path[d^="M12.5 8c.28"])::before{
+
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/text-limited.svg");
+
+}
+
+
+/*==========================================================
+    Voice
+==========================================================*/
+
+.channelIcon__9293f:has(path[d^="M12 3a1 1 0 0 0-1-1"])::before{
+
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice.svg");
+
+}
+
+
+/*==========================================================
+    Voice Chat
+==========================================================*/
+
+.channelIcon__9293f[aria-label*="Bate-papo em voz"]::before{
+
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice.svg");
+
+}
+
+
+/*==========================================================
+    Private Voice
+==========================================================*/
+
+.channelIcon__9293f:has(path[d^="M16 4h.5"]):has(path[d^="M11 2a1 1 0 0 1 1 1"])::before{
+
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/voice-limited.svg");
+
+}
+
+
+/*==========================================================
+    Forum
+==========================================================*/
+
+.channelIcon__9293f:has(path[d^="M18.91 12.98"])::before{
+
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/forum.svg");
+
+}
+
+
+/*==========================================================
+    Private Forum
+==========================================================*/
+
+.channelIcon__9293f:has(path[d^="M16 4h.5"]):has(path[d^="M13.58 3.23"])::before{
+
+    background-image:url("https://raw.githubusercontent.com/Vitor-19/VTM-Theme/main/Assets/Icons/forum-limited.svg");
+
 }
