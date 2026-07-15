@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Added custom Context Menu styling.
 - Bloodlines-styled channel header.
 - Custom activity cards styling.
 - Custom member list styling.
